@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "eg/d6qeo",
+  "version": "FFu8wD28",
   "assets": [
     {
-      "hash": "sha256-hljtE2J55wtZDZC9I+as6m7CEibfh7nfxVe7EaHetfY=",
+      "hash": "sha256-AvyEMzeXD121FW7pVL0+nFXtEVWNUpLcT+VlX6Ex9eg=",
       "url": "_framework/AIDA.Bot.wasm"
     },
     {
@@ -10,7 +10,7 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "hash": "sha256-64LxXwku4SOxhMOmMMpS6WzOdXNgacyrL6bRZNzI4Ns=",
+      "hash": "sha256-0GiYLSkvQYIVbi04K04mqKjFyvD4AYi9Hzf7N9Pk6u0=",
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
@@ -18,7 +18,7 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "hash": "sha256-XR+WUfg8LtnrwdXFBnV+qO3ROyp6cYCfl1AZajIAheM=",
+      "hash": "sha256-s1R7VNMhH7bhSix+9iDG/nBoBr1IbxaUQAhnz69waSg=",
       "url": "_framework/Microsoft.Extensions.Configuration.Abstractions.wasm"
     },
     {
@@ -26,7 +26,7 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.Extensions.Configuration.Json.wasm"
     },
     {
-      "hash": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
+      "hash": "sha256-dW14nEOBcwYs47V4WLNm3Ka4iUhM50MBLu9tRAHQoXk=",
       "url": "_framework/Microsoft.Extensions.Configuration.wasm"
     },
     {
@@ -130,7 +130,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-cL6+QWxLfzKbXaSYL8URRzD3uAecoyPGN+Nq1ybmVp0=",
+      "hash": "sha256-1CMhNUTTp7/VstmF8LF3ptMa1lzjN3xcxDwquC/gDmk=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -170,11 +170,15 @@ self.assetsManifest = {
       "url": "css/app.css"
     },
     {
+      "hash": "sha256-sQbqGwGCTbpx1qNP5q0Dw3nj8DVUBxzhLvzsfBbApek=",
+      "url": "css/auth.css"
+    },
+    {
       "hash": "sha256-vOvfetPxrpQoJUTXudwWXHC44DpqG2e8YphE/ipF3L4=",
       "url": "css/chat.css"
     },
     {
-      "hash": "sha256-oDUAGKdqOPD9aJW27MH2SQa2lYSNvzyL8ygLPFpZRzk=",
+      "hash": "sha256-O19D96SLktrIabUBkMfwSJQA/VU3b4LVc+K+19bxvjU=",
       "url": "css/home.css"
     },
     {
@@ -190,7 +194,7 @@ self.assetsManifest = {
       "url": "css/profile.css"
     },
     {
-      "hash": "sha256-hha7NvELYeLaBNM3Xq+dtJuho4ATapn1Uf3Oj+nbX08=",
+      "hash": "sha256-q6wt/ozk8037y1DR2045BFkVsb47VJj1nI3IFfDLMPY=",
       "url": "css/theme.css"
     },
     {
@@ -206,8 +210,16 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-T49xuA/cCPjVlIAeaKH16Gk53BTb1XYksgf7RzDCXoQ=",
+      "url": "images/OIP.webp"
+    },
+    {
       "hash": "sha256-sd2mOiMWQ5bnIv1N0idBKtdYLy8ulTlfn/aGJ/ckgAY=",
       "url": "images/ada-mascot.png"
+    },
+    {
+      "hash": "sha256-qmSo+zyFZBou1OeuYWzbxMOQElz5Oag5s0EmuCfwTLk=",
+      "url": "images/ait-campus-bg.jpg"
     },
     {
       "hash": "sha256-2KIOy4t1ANnShhpo+gap3hqi7rHvQHi0qvOqeHcSAL8=",
@@ -234,7 +246,7 @@ self.assetsManifest = {
       "url": "images/wi01.png"
     },
     {
-      "hash": "sha256-YmQW7BebDfAciVbegMoA+OPBqnQXP7Zc8KE+gdJu4Os=",
+      "hash": "sha256-9g6DuEysbJsdjreKSe7l2fH/xCpB+e61vvRpWasE4LE=",
       "url": "index.html"
     },
     {
