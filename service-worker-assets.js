@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "K3EhHTzr",
+  "version": "sHncqEev",
   "assets": [
     {
-      "hash": "sha256-97UPyL871rXKbzEjcUZ2t6QZ5uo78mqIp7sDx/ni2b4=",
+      "hash": "sha256-ldbxANdjOGxH/MKNE1cDWWlBvYaFooQVEF0D0mCzpSU=",
       "url": "_framework/AIDA.Bot.wasm"
     },
     {
-      "hash": "sha256-Fm3t5xgkPd/pPyovddKCfUOAYw1U0WTc/wbcz02VCtg=",
+      "hash": "sha256-NgCo1XREZ9eHN9yhT2Z5Qg8MCqITGU6pf1AO+cUMCoU=",
       "url": "_framework/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
@@ -14,7 +14,7 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-v3sCtC/k3MYiEyvCfuhkCn3o1cLRSlUcKLd7lUAysD0=",
+      "hash": "sha256-2YszDFJdA0bs9g6Qp5od9AYmgQdyJaEnFxsVpCHGTnw=",
       "url": "_framework/Microsoft.AspNetCore.Components.wasm"
     },
     {
@@ -106,7 +106,7 @@ self.assetsManifest = {
       "url": "_framework/System.Private.CoreLib.wasm"
     },
     {
-      "hash": "sha256-daRCCjci2W5pkeJbqw2DSWGCzDYxXzYhDb73tN6Zbrw=",
+      "hash": "sha256-suQeAW9GxnE1EObCp0ZXzVPuoKyjtHFFMEumtBkkRRI=",
       "url": "_framework/System.Private.Uri.wasm"
     },
     {
@@ -130,7 +130,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-xMQ+cDVsvwa17B0DCaxEJOGornVITFWNDLDCJAz66nQ=",
+      "hash": "sha256-hXlxPinAONjgDDOAHp6RSU/xwWQncouGV8wPXH7uMxk=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -174,7 +174,7 @@ self.assetsManifest = {
       "url": "css/auth.css"
     },
     {
-      "hash": "sha256-vOvfetPxrpQoJUTXudwWXHC44DpqG2e8YphE/ipF3L4=",
+      "hash": "sha256-zieTt+vRhjk5IYBL3WY1QVBaY+vVPsT37gtlzlGufp0=",
       "url": "css/chat.css"
     },
     {
@@ -186,7 +186,7 @@ self.assetsManifest = {
       "url": "css/knowledge.css"
     },
     {
-      "hash": "sha256-yHWzxlG7CZb/fM5EWfgQ/wAHFTskwX3S7WGFvHN5hKQ=",
+      "hash": "sha256-yqf8sVpQHtzvDHgL1sxs/C1qvjbeaz7X5OoXvKkHiNY=",
       "url": "css/layout.css"
     },
     {
