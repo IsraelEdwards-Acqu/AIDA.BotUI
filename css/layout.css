@@ -115,4 +115,68 @@
         background: #0078d4;
         color: #fff;
     }
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 100%;
+    background: #f9f9fb;
+    border-right: 1px solid #ddd;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    padding-top: 20px;
+    width: 60px; /* collapsed default */
+}
+
+    .sidebar.open {
+        width: 250px; /* expanded */
+    }
+
+/* Toggle button */
+.toggle-btn {
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+}
+
+/* Sidebar links hidden by default */
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+    /* Show links when sidebar is open */
+    .sidebar-links.show {
+        opacity: 1;
+        max-height: 500px;
+    }
+
+    /* Sidebar link styling */
+    .sidebar-links li {
+        margin: 12px 0;
+    }
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    color: #222; /* ✅ darker text for visibility */
+    font-weight: 600; /* ✅ bold so it stands out */
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+    .nav-link:hover {
+        background: #0078d4;
+        color: #fff; /* ✅ white text on hover */
+    }
+
 
