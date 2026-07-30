@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "28dCmcYg",
+  "version": "216SuFpH",
   "assets": [
     {
-      "hash": "sha256-zIS82wBBwQCE6WY5uYDvJTzBg6tBAhHsPB+pi5jL0Gc=",
+      "hash": "sha256-7P06jqNTM6Fm/NCF37HkfIGx9c2L6DjPbeayeACY2tg=",
       "url": "_framework/AIDA.Bot.wasm"
     },
     {
@@ -130,7 +130,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-2uKgrZr+igKOSEkROTKWTaMPBI7VIRLE0PXbYxrL5A4=",
+      "hash": "sha256-fpCQsHir9nBXmOODYJcyaeu8nwo03/RgRf1uXcwwtvE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -166,6 +166,10 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.dat"
     },
     {
+      "hash": "sha256-pl1nEIY2zt0lHEDB/mKorxS1oPQgZZgQ7GoKn2AbJ5Q=",
+      "url": "_redirects"
+    },
+    {
       "hash": "sha256-dsmPZEtx8Cb9CcUKQxDj8gl7mI0NLhjqw9qI8mIusnY=",
       "url": "css/auth.css"
     },
@@ -174,7 +178,7 @@ self.assetsManifest = {
       "url": "css/chat.css"
     },
     {
-      "hash": "sha256-Ugjk6biIioHRjF5rQy8UBOyKvCO14PIflBk2l9mPoIU=",
+      "hash": "sha256-EJvq4LSfaOpUAvddpvwsLnXV7nVydKzFD8Out8eK6oU=",
       "url": "css/home.css"
     },
     {
@@ -212,6 +216,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-sd2mOiMWQ5bnIv1N0idBKtdYLy8ulTlfn/aGJ/ckgAY=",
       "url": "images/ada-mascot.png"
+    },
+    {
+      "hash": "sha256-FEiWB+r7t/srcYaB8+t3fWyU2jzPZzBJiNQBztoCS+0=",
+      "url": "images/aidapro.png"
     },
     {
       "hash": "sha256-qmSo+zyFZBou1OeuYWzbxMOQElz5Oag5s0EmuCfwTLk=",
@@ -252,6 +260,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-0vmy1QrvVIhzOgNB5iHy6CSUoV7QW23wuz7ry+jFoAY=",
       "url": "manifest.webmanifest"
+    },
+    {
+      "hash": "sha256-d6GQTurNnii279PNUtR/W38FRNqeFZLoV18jLrSWsDA=",
+      "url": "vercel.json"
     }
   ]
 };

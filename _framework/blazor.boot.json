@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AIDA.Bot",
   "resources": {
-    "hash": "sha256-jwfSgYHJ5zIJf9uK9XMaAhELL3E9vh/qBBX7Hmc+U7s=",
+    "hash": "sha256-/LaWafUxuBl52vqCHgpSegGwlURAmnAuWp1rQbBrpqQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-h1cc+uDcw8URfWFQFiDhujz5LCtfxtPwcUt2t/ghN4I="
     },
@@ -49,7 +49,7 @@
       "System.Text.Json.wasm": "sha256-R3erAi+N6Humtha8jE8rBHwKPpG7JGnF1m/rH7yJGCQ=",
       "System.Text.RegularExpressions.wasm": "sha256-QtzUiet1dIc7potIirp9lrs13Ub7rQR5SUxfR+TiKzA=",
       "System.Private.CoreLib.wasm": "sha256-nkbxvZ3cWItbplYKypn6BUeIWjYzhP961/0cExuEWN4=",
-      "AIDA.Bot.wasm": "sha256-zIS82wBBwQCE6WY5uYDvJTzBg6tBAhHsPB+pi5jL0Gc="
+      "AIDA.Bot.wasm": "sha256-7P06jqNTM6Fm/NCF37HkfIGx9c2L6DjPbeayeACY2tg="
     }
   },
   "cacheBootResources": true,

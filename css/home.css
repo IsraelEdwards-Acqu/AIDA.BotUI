@@ -1,4 +1,4 @@
-﻿/* Center welcome and info */
+﻿/* General container */
 .home-container {
     display: flex;
     flex-direction: column;
@@ -7,99 +7,107 @@
     max-width: 1100px;
     margin: 0 auto;
     box-sizing: border-box;
+    text-align: center;
 }
 
+/* Welcome section */
 .home-welcome {
-    text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .project-logo {
     max-width: 180px;
     height: auto;
     display: block;
-    margin: 0 auto 0.75rem;
+    margin: 0 auto 1rem;
 }
 
-/* Heading and lead */
 #home-heading {
-    font-size: 1.9rem;
-    margin: 0.25rem 0;
-    line-height: 1.15;
+    font-size: 2rem;
     font-weight: 700;
+    margin: 0.5rem 0;
 }
 
 .lead {
+    font-size: 1.1rem;
     color: #555;
-    margin: 0.25rem 0 0.75rem;
+    margin: 0.25rem 0;
 }
 
-/* Info paragraph centered and constrained */
-.home-info {
-    text-align: center;
-    max-width: 820px;
-    margin: 0.5rem auto 1.25rem;
-    color: #444;
+.sub-lead {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
 }
 
-/* Cards container: slightly larger cards than before */
-.home-cards .card-container {
+/* Feature cards container */
+.feature-cards .card-container {
     display: flex;
     justify-content: center;
-    gap: 1.25rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-/* Individual card: a bit bigger, balanced spacing */
-.nav-card {
-    background: #ffffff;
+/* Individual feature card */
+.feature-card {
+    background: #fff;
     border-radius: 12px;
-    padding: 1.5rem 1.75rem;
-    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    width: 280px;
     text-align: center;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    min-width: 160px; /* increased */
-    max-width: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.6rem;
-    user-select: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-    .nav-card:focus,
-    .nav-card:hover {
+    .feature-card:hover,
+    .feature-card:focus {
         transform: translateY(-6px);
-        box-shadow: 0 14px 36px rgba(0,0,0,0.12);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.12);
         outline: none;
     }
 
-.card-icon {
-    font-size: 1.8rem; /* slightly larger icon */
+/* Card image — resized smaller */
+.card-image {
+    max-width: 60px; /* reduced from 80px */
+    height: auto;
+    margin: 0 auto 0.75rem;
+    display: block;
 }
 
-.card-label {
-    font-weight: 700;
-    font-size: 1rem;
-    color: #222;
+/* Headings and text inside cards */
+.feature-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Auth buttons */
+.feature-card p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.7rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.primary-btn {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
 .auth-buttons {
-    margin-top: 1.75rem;
-    text-align: center;
+    margin-top: 1rem;
 }
 
     .auth-buttons .btn {
-        margin: 0 0.5rem;
-        padding: 0.7rem 1.35rem;
-        border-radius: 8px;
-        border: none;
-        cursor: pointer;
-        font-weight: 700;
-        font-size: 0.95rem;
+        margin: 0.5rem;
     }
 
 .login-btn {
@@ -119,7 +127,7 @@
     color: #333;
 }
 
-/* Responsive: stack cards on narrow screens and scale down spacing */
+/* Responsive adjustments */
 @media (max-width: 900px) {
     #home-heading {
         font-size: 1.7rem;
@@ -129,9 +137,13 @@
         max-width: 150px;
     }
 
-    .nav-card {
-        min-width: 140px;
-        padding: 1.25rem 1.25rem;
+    .feature-card {
+        width: 240px;
+        padding: 1.25rem;
+    }
+
+    .card-image {
+        max-width: 50px; /* smaller on tablets */
     }
 }
 
@@ -143,18 +155,13 @@
     .card-container {
         flex-direction: column;
         align-items: center;
-        gap: 0.9rem;
+        gap: 1rem;
     }
 
-    .nav-card {
+    .feature-card {
         width: 92%;
         max-width: 420px;
-        min-width: unset;
-        padding: 1rem 1rem;
-    }
-
-    .card-icon {
-        font-size: 1.5rem;
+        padding: 1rem;
     }
 
     #home-heading {
@@ -163,7 +170,12 @@
 
     .auth-buttons .btn {
         display: inline-block;
-        width: 44%;
-        margin: 0.35rem 0.25rem;
+        width: 90%;
+        margin: 0.35rem 0;
+    }
+
+    .card-image {
+        max-width: 45px; /* smallest on phones */
+        margin-bottom: 0.5rem;
     }
 }
