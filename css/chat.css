@@ -88,3 +88,65 @@
         width: 95%;
     }
 }
+.sidebar-conversations {
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem 0.75rem;
+    border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.conversations-heading {
+    font-size: 0.95rem;
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.conversation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conversation-item {
+    margin-bottom: 0.45rem;
+}
+
+.conversation-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.45rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: inherit;
+}
+
+    .conversation-link:hover,
+    .conversation-link:focus {
+        background: rgba(0,0,0,0.03);
+        outline: none;
+    }
+
+.conv-title {
+    font-size: 0.92rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conv-meta {
+    font-size: 0.78rem;
+    color: #666;
+}
+
+.view-all {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+    .view-all a {
+        font-size: 0.85rem;
+        color: var(--link-color, #0d6efd);
+        cursor: pointer;
+    }

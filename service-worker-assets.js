@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "XEhKt4IM",
+  "version": "28dCmcYg",
   "assets": [
     {
-      "hash": "sha256-lmZCP4ZUduywVKYI9ugMDpGy5aNtpgVjvy+ZQKOIyek=",
+      "hash": "sha256-zIS82wBBwQCE6WY5uYDvJTzBg6tBAhHsPB+pi5jL0Gc=",
       "url": "_framework/AIDA.Bot.wasm"
     },
     {
@@ -82,7 +82,7 @@ self.assetsManifest = {
       "url": "_framework/System.Diagnostics.DiagnosticSource.wasm"
     },
     {
-      "hash": "sha256-3P3zebb3aXs822CI5Jqvyz5YFhmylOmm+s/ewy46nmk=",
+      "hash": "sha256-v2anfaoBRB+afgv3yBEYT3dC6xF98QMnM32hq9wnmX0=",
       "url": "_framework/System.Linq.wasm"
     },
     {
@@ -102,7 +102,7 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Primitives.wasm"
     },
     {
-      "hash": "sha256-P1qkta0TDrC4+4X+KGt7BYKeFOswXfiADiC1GJ2+1no=",
+      "hash": "sha256-nkbxvZ3cWItbplYKypn6BUeIWjYzhP961/0cExuEWN4=",
       "url": "_framework/System.Private.CoreLib.wasm"
     },
     {
@@ -114,7 +114,7 @@ self.assetsManifest = {
       "url": "_framework/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-AeIxHttkVt30b5AAYhcutDYvVNyS4lfYYD31HTqnpS4=",
+      "hash": "sha256-iPx9COktshlhzpNWjo7qIGiOEL+Y/cL4jbnfMaaHFCs=",
       "url": "_framework/System.Runtime.wasm"
     },
     {
@@ -130,7 +130,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-sAWbnstu+e5KL+obwX/Hxmlz0DgDHcSV0HHl+IfjXCk=",
+      "hash": "sha256-2uKgrZr+igKOSEkROTKWTaMPBI7VIRLE0PXbYxrL5A4=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -146,7 +146,7 @@ self.assetsManifest = {
       "url": "_framework/dotnet.native.js"
     },
     {
-      "hash": "sha256-/eTb/jwI7agEmUe3KZQPFKdFSBRdR7mneQP5dD/qsrs=",
+      "hash": "sha256-xoEWSnfY9DrrgUxeEgGWnTItiGBE28p98amzDVL3ChM=",
       "url": "_framework/dotnet.native.wasm"
     },
     {
@@ -170,11 +170,11 @@ self.assetsManifest = {
       "url": "css/auth.css"
     },
     {
-      "hash": "sha256-OLUetYdX8BFOOVHF1xvS4ZK1D2QTMuCPmQK/JenPxME=",
+      "hash": "sha256-mh/nOQvHrtxN/zRGxnoHI2Jc2oorlI3MmYmkcwyTo68=",
       "url": "css/chat.css"
     },
     {
-      "hash": "sha256-CwU28lFDZv7L9G/bLTV5/fhJF9AWZXPoBtihT2V0N7k=",
+      "hash": "sha256-Ugjk6biIioHRjF5rQy8UBOyKvCO14PIflBk2l9mPoIU=",
       "url": "css/home.css"
     },
     {

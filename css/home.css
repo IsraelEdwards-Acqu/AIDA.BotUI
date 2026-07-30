@@ -1,61 +1,169 @@
-﻿/* Home page only - simplified for sidebar-first layout */
-
-/* Container */
+﻿/* Center welcome and info */
 .home-container {
-    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
     max-width: 1100px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-/* Welcome section */
 .home-welcome {
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
-    .home-welcome h1 {
-        font-size: 32px;
-        font-weight: 700;
-        color: #002366;
-        margin-bottom: 6px;
-    }
+.project-logo {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.75rem;
+}
 
-    .home-welcome .lead {
-        font-size: 16px;
-        color: #444;
-    }
+/* Heading and lead */
+#home-heading {
+    font-size: 1.9rem;
+    margin: 0.25rem 0;
+    line-height: 1.15;
+    font-weight: 700;
+}
 
-/* Short info block */
+.lead {
+    color: #555;
+    margin: 0.25rem 0 0.75rem;
+}
+
+/* Info paragraph centered and constrained */
 .home-info {
-    background: rgba(255,255,255,0.9);
-    border-radius: 10px;
-    padding: 18px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    text-align: center;
+    max-width: 820px;
+    margin: 0.5rem auto 1.25rem;
+    color: #444;
+}
+
+/* Cards container: slightly larger cards than before */
+.home-cards .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+/* Individual card: a bit bigger, balanced spacing */
+.nav-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem 1.75rem;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    min-width: 160px; /* increased */
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    user-select: none;
+}
+
+    .nav-card:focus,
+    .nav-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 36px rgba(0,0,0,0.12);
+        outline: none;
+    }
+
+.card-icon {
+    font-size: 1.8rem; /* slightly larger icon */
+}
+
+.card-label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #222;
+}
+
+/* Auth buttons */
+.auth-buttons {
+    margin-top: 1.75rem;
+    text-align: center;
+}
+
+    .auth-buttons .btn {
+        margin: 0 0.5rem;
+        padding: 0.7rem 1.35rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+
+.login-btn {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.register-btn {
+    background-color: #198754;
+    color: #fff;
+}
+
+/* Admin note */
+.admin-home-note {
+    text-align: center;
+    margin-top: 1.5rem;
     color: #333;
 }
 
-/* Remove card grid styles (we no longer use option-card on home) */
-.options, .option-card, .auth-buttons {
-    display: none;
+/* Responsive: stack cards on narrow screens and scale down spacing */
+@media (max-width: 900px) {
+    #home-heading {
+        font-size: 1.7rem;
+    }
+
+    .project-logo {
+        max-width: 150px;
+    }
+
+    .nav-card {
+        min-width: 140px;
+        padding: 1.25rem 1.25rem;
+    }
 }
 
-/* Responsive: keep welcome centered on small screens */
-@media (max-width: 1024px) {
+@media (max-width: 520px) {
     .home-container {
-        padding: 16px;
+        padding: 1.25rem 0.75rem;
     }
 
-    .home-welcome h1 {
-        font-size: 28px;
-        text-align: center;
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
     }
 
-    .home-welcome .lead {
-        text-align: center;
+    .nav-card {
+        width: 92%;
+        max-width: 420px;
+        min-width: unset;
+        padding: 1rem 1rem;
     }
 
-    .home-info {
-        margin-top: 12px;
+    .card-icon {
+        font-size: 1.5rem;
+    }
+
+    #home-heading {
+        font-size: 1.45rem;
+    }
+
+    .auth-buttons .btn {
+        display: inline-block;
+        width: 44%;
+        margin: 0.35rem 0.25rem;
     }
 }
